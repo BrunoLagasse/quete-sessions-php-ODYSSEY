@@ -1,7 +1,6 @@
 <footer>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <ul class="nav navbar-nav ">
                 <li><a href="#">Conditions générales</a></li>

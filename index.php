@@ -18,4 +18,6 @@
         <?php } ?>
     </div>
 </section>
+
 <?php require 'inc/foot.php'; ?>
+<?php require 'script/add.php'; ?>

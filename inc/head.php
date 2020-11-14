@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,6 +49,11 @@
         </div><!-- /.container-fluid -->
     </nav>
     <div class="container-fluid text-right">
-        <strong>Hello Wilder !</strong>
+        <strong>Hello <?php require 'script/hello.php'?> !</strong>
+
+        <a href="script/logout.php" class="btn btn-warning navbar-btn">
+            Logout
+        </a>
     </div>
 </header>
+
